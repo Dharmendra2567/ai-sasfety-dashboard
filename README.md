@@ -6,7 +6,7 @@
 ## 🚀 Project Deployment
 
 **Live Project URL:**  
-[🔗 Project Link](https://example.com)
+[🔗 Project Link](https://ai-sasfety-dashboard-1.onrender.com/)
 
 ---
 
