@@ -1,46 +1,196 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛡️ AI Safety Dashboard UI
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Deployment
 
-### `npm start`
+**Live Project URL:**  
+[🔗 Project Link](https://example.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📋 Project Overview
 
-### `npm test`
+The **AI Safety Dashboard UI** is a fully responsive and interactive dashboard designed for managing AI safety incidents with filtering, sorting, submission, and mobile optimization features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Installation Steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow the steps below to clone and run the project locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/your-username/ai-safety-dashboard.git
+```
 
-### `npm run eject`
+### 2. Navigate into the Project Directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+cd ai-safety-dashboard
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Install Project Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 4. Run the Development Server
 
-## Learn More
+```bash
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. Open the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open the following URL in your browser:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## ✨ Core Features
+
+| Feature | Description |
+|:---|:---|
+| 🏠 Main Dashboard | Displays a categorized overview of AI safety incidents using dynamic cards. |
+| 🔍 Filter by Choice | Filters incidents based on selected criteria such as risk levels. |
+| ⚡ Filter by High Priority | Filters only the high-priority incidents for immediate attention. |
+| ⏳ Sort by Oldest First | Sorts incidents chronologically starting from the earliest reported incidents. |
+| 📝 Submit Incident | Provides a dedicated form for users to report new safety incidents. |
+| 🧹 Toggle Description | Enables expand/collapse functionality for incident descriptions. |
+| 📱 Small Screen View | Fully responsive UI optimized for mobile and tablet screens. |
+
+---
+
+## 📸 Project Screenshots
+
+> All screenshots are stored inside the `screenshots/` folder.
+
+---
+
+### 📍 Main Dashboard
+
+Overview displaying categorized cards and the list of AI incidents.
+
+![main-dashboard](./screenshots/main-dashboard.png)
+
+---
+
+### 📍 Filter by Choice
+
+Filter functionality to view incidents based on different criteria.
+
+![filterby-choice](./screenshots/filterby-choice.png)
+
+---
+
+### 📍 Filter by High Priority
+
+Displays only high-priority incidents for quick review.
+
+![filter-by-high](./screenshots/filter-by-high.png)
+
+---
+
+### 📍 Sort by Oldest First
+
+Sorts incidents in ascending order of their reported time.
+
+![sort-by-oldestfirst](./screenshots/sort-by-oldestfirst.png)
+
+---
+
+### 📍 Submit Incident
+
+Form section where users can submit newly detected incidents.
+
+![submit-incident](./screenshots/submit-incident.png)
+
+---
+
+### 📍 Toggle Description
+
+Expand or collapse detailed description of incidents.
+
+![toggle-description](./screenshots/toggle-description.png)
+
+---
+
+### 📍 Small Screen View
+
+Compact and mobile-friendly layout for devices with small screens.
+
+![small-screen](./screenshots/small-screen.png)
+
+---
+
+## 🎥 Project Demonstration Video
+
+A detailed walkthrough of the full functionality and responsiveness of the dashboard UI.
+
+![AI_Safety_Dashboard_UI_Demo](./screenshots/AI_Safety_Dashboard_UI_Demo.png)
+
+**Video Location:**  
+```text
+./screenshots/AI_Safety_Dashboard_UI_Demo.mp4
+```
+
+---
+
+## 📄 Additional Information
+
+- Node.js Version: **v18+**
+- Package Manager: **npm**
+- Framework: **Vite + React + TypeScript**
+- Styling Framework: **TailwindCSS**
+
+---
+
+## 📚 Technology Stack
+
+- React.js
+- TypeScript
+- CSS
+- HTML
+
+---
+
+## 📂 Project Directory Structure
+
+```text
+ai-safety-dashboard/
+├── screenshots/
+│   ├── main-dashboard.png
+│   ├── filterby-choice.png
+│   ├── filter-by-high.png
+│   ├── sort-by-oldestfirst.png
+│   ├── submit-incident.png
+│   ├── toggle-description.png
+│   ├── small-screen.png
+│   ├── AI_Safety_Dashboard_UI_Demo.mp4
+├── src/
+├── package.json
+├── README.md
+```
+
+---
+
+## ✅ Completion
+
+This documentation provides a complete installation guide, project overview, features listing, screenshots, video demo, and project structure in a professional format supported by GitHub `README.md` standards.
+
+---
+
+## 📢 Notes:
+
+- **All instructions are inside Markdown-supported formatting.**
+- **All commands and file paths are inside proper code blocks.**
+- **Descriptions are formal, short, and structured.**
+- **No casual lines, no unprofessional splits.**
+- **Everything readable and styled properly inside GitHub.**

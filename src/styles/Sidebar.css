@@ -1,0 +1,135 @@
+/* Base Styles */
+.sidebar {
+    width: 25%;
+    min-width: 250px;
+    height: 100vh;
+    background: linear-gradient(180deg, #1e3a8a 0%, #2563eb 100%);
+    color: white;
+    position: fixed;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    top: 50px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-profile {
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .profile-name {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .profile-role {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin: 0;
+  }
+  
+  /* Menu Items */
+  .sidebar-menu {
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .sidebar-icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .menu-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+  }
+  
+  /* Collapsed State */
+  .sidebar.collapsed {
+    width: 80px;
+    min-width: 80px;
+  }
+  
+  .sidebar.collapsed .menu-text,
+  .sidebar.collapsed .profile-name,
+  .sidebar.collapsed .profile-role {
+    display: none;
+  }
+  
+  .sidebar.collapsed .sidebar-profile {
+    padding: 1rem 0.5rem;
+  }
+  
+  .sidebar.collapsed .menu-item {
+    justify-content: center;
+  }
+  
+  .sidebar.collapsed .sidebar-icon {
+    margin-right: 0;
+    font-size: 1.4rem;
+  }
+  
+  /* Mobile Responsiveness */
+  .sidebar-mobile-toggle {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .sidebar {
+      transform: translateX(-100%);
+    }
+  
+    .sidebar.mobile-open {
+      transform: translateX(0);
+    }
+  
+    .sidebar-mobile-toggle {
+      display: block;
+    }
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }

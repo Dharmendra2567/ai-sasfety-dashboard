@@ -1,0 +1,22 @@
+
+.navbar-brand .brand-highlight {
+    color: #ff6b6b; 
+  }
+  
+  /* Navbar Base Styles */
+  .navbar {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    height: 60px; 
+    z-index: 1030; 
+  }
+  
+  .navbar-brand {
+    margin-left: 0; 
+    transition: margin 0.3s ease;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-brand {
+      margin-left: 50px;
+    }
+  }
